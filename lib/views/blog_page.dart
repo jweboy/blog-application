@@ -19,7 +19,7 @@ class _BlogPageState extends State<BlogPage> {
           Expanded(
               flex: 1,
               child: ListView.builder(
-                itemCount: 50,
+                itemCount: 5,
                 itemBuilder: (BuildContext context, int index) {
                   return Card(
                     child: ListTile(
